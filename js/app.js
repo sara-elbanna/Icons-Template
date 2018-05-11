@@ -34,13 +34,13 @@ $(function(){
 	star_rating(selector3,.6);
 	
 
-// Section : add_project >> element after button give us
+// Section : add_project >> Arrow element after button give us
 	var send_button_height = $('.send-section .question button').outerHeight();
 	function button_arrow(){
 		send_button_height = $('.send-section .question button').outerHeight();
 		$('.send-section .question button span').css({
-		"border-width":send_button_height/2 -1,
-		"right": -send_button_height +2
+		"border-width":send_button_height/2 -.5,
+		"right": -send_button_height 
 		});
 	}
 	button_arrow();

@@ -484,6 +484,8 @@ header  .colomns .content .gallery{
     position: relative;
     margin-top: 0;
     font-weight: 100;
+    border-color: var(--main-color);
+    border-style: solid;
 }
 .send-section .question button span{
 	/*border-width: 32.67px;*/
