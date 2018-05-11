@@ -462,7 +462,7 @@ header  .colomns .content .gallery{
 .send-section .question{
 	display: flex;
 	margin-bottom: 20px;
-	text-indent: 15%;
+	justify-content: center
 }
 .send-section .question >h2{
 	display: inline-block;
@@ -494,6 +494,10 @@ header  .colomns .content .gallery{
     top: 0px;
     /*right: -65.34px;*/
     position: absolute;
+}
+.send-section form{
+    display: flex;
+    justify-content: center;
 }
 .send-section form input[type="email"]{
 	height: 50px;
