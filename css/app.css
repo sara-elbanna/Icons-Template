@@ -559,12 +559,12 @@ header  .colomns .content .gallery{
 	margin: 40px 0;
 }
 .join_us_section .box .content button{
-	width: 220px;
-    height: 40px;
+	width: 250px;
+    height: 45px;
     color: #fff;
     background-color: var(--main-color);
     border: none;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
  .join_us_section .box img{
  	width: 60%
