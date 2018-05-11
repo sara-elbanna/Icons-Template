@@ -329,6 +329,10 @@ header  .colomns .content .gallery{
 .about{
 	min-height: 400px;
 }
+.about h2{
+    color: #404040;
+    font-size: 40px
+}
 .about h2 span{
 	color: var(--main-color)
 }
