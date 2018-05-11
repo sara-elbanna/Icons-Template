@@ -67,16 +67,20 @@ header{
 }
  /* Mobile XS */
 @media (max-width: 767px){
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fffcfc;
-}
-.dropdown-menu > li > a{
-	font-size: 1em;
-}
-.nav > li {
-    font-size: 1.2em;
-    text-align: center;
-}
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fffcfc;
+    }
+    .dropdown-menu > li > a{
+    	font-size: 1em;
+    }
+    .nav > li {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    }
+   
 }
 .nav > li:last-of-type{
 	margin-right: 0
