@@ -233,6 +233,8 @@ header .transparent{
     width: 100%;
     height: 90%;
     z-index: 4;
+    -webkit-clip-path: ellipse(149% 59% at 56% 25%);
+    -moz-clip-path: ellipse(149% 59% at 56% 25%);
     clip-path: ellipse(149% 59% at 56% 25%);
 }
 header .white-background {
@@ -244,6 +246,8 @@ header .white-background {
     width: 100%;
     height: 80%;
     z-index: 4;
+    -webkit-clip-path: ellipse(138% 62% at 32% 24%);
+    -moz-clip-path: ellipse(138% 62% at 32% 24%);
     clip-path: ellipse(138% 62% at 32% 24%);
 }
 header  .biggest-curve-layer{
@@ -255,6 +259,8 @@ header  .biggest-curve-layer{
     width: 100%;
     height: 80%;
     z-index: 5;
+    -webkit-clip-path: ellipse(114% 58% at 22% 25%);
+    -moz-clip-path: ellipse(114% 58% at 22% 25%);
     clip-path: ellipse(114% 58% at 22% 25%);
 }
 header .photo_container {
@@ -265,8 +271,11 @@ header .photo_container {
     width: 100%;
     height: 70%;
     z-index: 5;
+    background-color: #fff;
+    -webkit-clip-path: ellipse(101% 69% at 9% 24%);
+    -moz-clip-path: ellipse(101% 69% at 9% 24%);
     clip-path: ellipse(101% 69% at 9% 24%);
-    background-color: #fff
+    
 }
 header .photo_container .photo_background{
     position: absolute;
@@ -449,6 +458,8 @@ header  .colomns .content .gallery{
 	width: 100%;
 	height: 100%;
 	color: var(--main-color);
+    -webkit-clip-path: inset(0px 100% 0px 0px);
+    -moz-clip-path: inset(0px 100% 0px 0px);
 	clip-path: inset(0px 100% 0px 0px);
 }
 /* End portfolio */
@@ -478,7 +489,7 @@ header  .colomns .content .gallery{
 	display: inline-block;
 	padding: 1.5vw;
     background-color: var(--main-color);
-    color: #fff;
+    color: #fff !important;
     font-size: 1.5vw;
     margin-top: 5px;
     position: relative;
